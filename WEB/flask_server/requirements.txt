@@ -1,0 +1,9 @@
+joblib
+nltk
+flask
+flask_cors
+numpy
+pandas
+scikit-learn
+tensorflow
+BeautifulSoup4
