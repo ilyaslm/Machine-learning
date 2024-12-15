@@ -37,7 +37,7 @@ export default function About() {
           <p className="text-justify">Aujourd'hui nous avons accès a une mutitudes d'articles sur internet et parmis eux beaucoup sont trompeurs. lls peuvent semer la confusion, influencer les opinions publiques, polariser les débats et compromettre la confiance dans les médias et les institutions. Pour lutter contre ce problème, notre projet a été développé pour détecter les fake news en ligne dans les articles de presse. L'objectif est de fournir aux utilisateurs une évaluation fiable de la crédibilité des articles, les aidant ainsi à prendre des décisions éclairées et à contrer la propagation des fausses informations, renforçant ainsi la confiance dans les informations en ligne et promouvant un journalisme responsable.</p>
           <div className="flex gap-4">
             <button
-              onClick={() => window.open("", "_blank")}
+              onClick={() => window.open("https://github.com/ilyaslm/Machine-learning", "_blank")}
               className="p-2 bg-black text-white hover:bg-white hover:text-black rounded flex items-center justify-center gap-2"
               onMouseEnter={handleHover}
               onMouseLeave={handleHover}
@@ -50,7 +50,7 @@ export default function About() {
               <span>Github</span>
             </button>
             <button
-              onClick={() => window.open("", "_blank")}
+              onClick={() => window.open("https://github.com/ilyaslm/Machine-learning/blob/main/Data%20Processing.ipynb", "_blank")}
               className="p-2 bg-black text-white hover:bg-white hover:text-black rounded flex items-center justify-center gap-2"
               
             >
@@ -62,7 +62,7 @@ export default function About() {
               <span>Notebook - Prétraitements</span>
             </button>
             <button
-              onClick={() => window.open("", "_blank")}
+              onClick={() => window.open("https://colab.research.google.com/drive/1kLzIh_jwHn7IE3aSmRp0-wLYPQBMJYD2?usp=sharing", "_blank")}
               className="p-2 bg-white text-black hover:bg-black hover:text-white rounded flex items-center justify-center gap-2"
             >
               <img 
