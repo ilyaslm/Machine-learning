@@ -23,7 +23,7 @@ Veuillez trouver ci-dessous les commandes nécessaires pour le bon fonctionnemen
 Installer le serveur back-end :
 
 ```
-cd WEB/flask-server/
+cd WEB/flask_server/
 python -m venv venv
 venv/bin/activate
 pip install -r requirements.txt
