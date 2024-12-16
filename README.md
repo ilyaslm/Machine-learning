@@ -33,7 +33,7 @@ python server.py
 Lancer le serveur back-end :
 
 ```
-cd WEB/flask-server/
+cd WEB/flask_server/
 venv/bin/activate
 python server.py
 ```
