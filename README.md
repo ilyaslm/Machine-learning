@@ -25,7 +25,7 @@ Installer le serveur back-end :
 ```
 cd WEB/flask_server/
 python -m venv venv
-venv/bin/activate
+venv/Scripts/activate
 pip install -r requirements.txt
 python server.py
 ```
@@ -34,7 +34,7 @@ Lancer le serveur back-end :
 
 ```
 cd WEB/flask_server/
-venv/bin/activate
+venv/Scripts/activate
 python server.py
 ```
 
